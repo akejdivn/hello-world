@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    src: url('../vjl/font/static/Inter-Regular.ttf');
+    font-family: "Inter";
+}
+.head{
+    
+    text-decoration: none;
+    color: khaki;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content:space-between;
+    font: size 15px; ;
+   
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    transition: 1s;
+
+   
+}
+.head:hover{
+    color: brown;
+}
+.img{
+  margin: 15px;
+  display: inline-block;
+  width: 1400px;
+  height: 800px;
+
+  
+}
+.body{
+    background-image: url(/vjl/img/Rectangle\ 3.png);
+    background-color: black;
+}
+.krug{
+    margin-left: 500px;
+}
+
+.af{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.aa{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    display:flex ;
+    justify-content:space-around;
+ 
+}
